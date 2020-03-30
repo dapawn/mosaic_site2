@@ -12,7 +12,7 @@
   <title>Mosaic NE Philly Homeschool Coop</title>
   <style>
     header{
-      background: url(img/storytime.jpg);
+      background: url(img/christmasbrunch2.jpg);
       background-size: cover;
       background-position: center;
       min-height: 1000px;
@@ -25,6 +25,12 @@
     .section{
       padding-top: 4vw;
       padding-bottom: 4vw;
+    }
+    .tabs .indicator{
+      background-color: #1a237e;
+    }
+    .tabs .tab a:focus, .tabs .tab a:focus.active{
+      background: transparent;
     }
   </style>
 </head>
@@ -58,7 +64,7 @@
   <section class="container section" id="photos">
     <div class="row">
       <div class="col s12 l4">
-          <img src="img/playtime2.jpg" alt="" class="responsive-img materialboxed">
+          <img src="img/storytime.jpg" alt="" class="responsive-img materialboxed">
       </div>
       <div class="col s12 l6 offset-l1">
         <h2 class="indigo-text text-darken-4">Class Time</h2>
@@ -93,11 +99,43 @@
   </div>
 
   <!-- services / tabs -->
-  <div class="container">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
-  </div>
+  <section class="section container" id="services">
+    <div class="row">
+      <div class="col s12 l4">
+        <h2 class="indigo-text text-darken-4">Who we are...</h2>
+        <p>Our <b>mission</b> is to be a God honoring, supportive homeschooling community that nurtures lifelong learning through a balance of academics, enrichment activities and nature studies.</p>
+        <p>Our <b>vision</b> is to enrich the lives of kids and moms alike in the godly pursuit of a holistic education.</p>
+        <p>Our <b>core values</b> are maintaing a Biblical worldview in all we do as a co-op; community; collaboration; and creativity.</p>
+      </div>
+      <div class="col s12 l6 offset-l2">
+        <!-- tabs -->
+        <ul class="tabs">
+          <li class="tab col s4">
+            <a href="#classes" class="active indigo-text text-darken-4"><h6>CLASSES</h6></a>
+          </li>
+          <li class="tab col s4">
+            <a href="#whenwhere" class="indigo-text text-darken-4"><h6>WHEN/WHERE</h6></a>
+          </li>
+          <li class="tab col s4">
+            <a href="#cost" class="indigo-text text-darken-4"><h6>CO$T</h6></a>
+          </li>
+        </ul>
+        <div id="classes" class="col s12">
+            <p class="flow-text indigo-text text-darken-4">Vision</p>
+            <p>To enrich the lives of kids and moms alike in the idly pursuit of a holistic education.</p>
+        </div>
+        <div id="cost" class="col s12">
+            <p class="flow-text indigo-text text-darken-4">Vision</p>
+            <p>To enrich the lives of kids and moms alike in the idly pursuit of a holistic education.</p>
+        </div>
+        <div id="whenwhere" class="col s12">
+            <p class="flow-text indigo-text text-darken-4">Values</p>
+            <p>Maintaing a Biblical worldview in all we do a co-op; community; collaboration; and creativity.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- parallax -->
   <div class="parallax-container">
@@ -108,6 +146,7 @@
 
   <!-- contact form -->
   <div class="container">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
@@ -123,6 +162,7 @@
       $('.sidenav').sidenav();
       $('.materialboxed').materialbox();
       $('.parallax').parallax();
+      $('.tabs').tabs();
 
     });
   </script>
