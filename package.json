@@ -1,0 +1,37 @@
+{
+  "name": "mosaicphillyne",
+  "version": "1.0.0",
+  "description": "Website for Mosaic Philly NE Homeschool Coop",
+  "main": "index.html",
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemailer": "^6.4.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dapawn/mosaic_site2.git"
+  },
+  "keywords": [
+    "Mosaic",
+    "NE",
+    "Philly",
+    "Homeschool",
+    "Coop",
+    "Philadelphia",
+    "home",
+    "school",
+    "group"
+  ],
+  "author": "David Kuruvilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dapawn/mosaic_site2/issues"
+  },
+  "homepage": "https://github.com/dapawn/mosaic_site2#readme"
+}
